@@ -1,10 +1,10 @@
 # Basic-Statistics-2
 
 ## Confidence Interval Estimation for Print-Head Durability
-### Background
+### Background:
 In quality control, particularly for high-value components, destructive testing methods are employed to ensure adherence to quality standards. Due to the inherent costliness of these tests, only a small sample can be evaluated. This project focuses on estimating the mean durability of print-heads—measured in millions of characters printed before failure—by constructing confidence intervals based on a limited dataset.
 
-### Scenario
+### Scenario:
 A manufacturer of print-heads for personal computers has conducted a study to estimate the mean durability of their products. Due to the destructive nature of the testing process, a sample of 15 print-heads was tested, and their durability was recorded as follows (in millions of characters): 1.13, 1.55, 1.43, 0.92, 1.25, 1.36, 1.32, 0.85, 1.07, 1.48, 1.20, 1.33, 1.18, 1.22, 1.29.
 
 ### a. Construction of 99% Confidence Interval Using Sample Standard Deviation
@@ -23,5 +23,5 @@ A manufacturer of print-heads for personal computers has conducted a study to es
 2.Apply Population Standard Deviation: Use the known population standard deviation of 0.2 million characters in the interval calculation.
 3. Use the z-Distribution: Since the population standard deviation is known and the sample size is considered sufficiently large for this context, the z-distribution is 
    employed for constructing the confidence interval.
-### Conclusion
+### Conclusion:
 This analysis provides robust estimates of the mean print-head durability through the construction of 99% confidence intervals. By comparing intervals derived from sample-based and population-based approaches, the analysis underscores the importance of choosing the appropriate statistical method based on available data and known parameters.
